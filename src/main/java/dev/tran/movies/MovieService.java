@@ -1,6 +1,6 @@
 package dev.tran.movies;
 
-import org.bson.types.ObjectId;
+
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -20,7 +20,7 @@ public class MovieService {
         return movieRepository.findAll(); //return all the movies
     }
 
-    public Optional<Movie> singleMovie(ObjectId id){
-        return movieRepository.findById(id);
+    public Optional<Movie> singleMovie(String imdbId){
+        return movieRepository.findMoviesByImdbId(imdbId);
     }
 }
