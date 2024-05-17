@@ -2,7 +2,7 @@ This is the Spring Boot backend of the movie application, which manages connecti
 
 ## How to deploy the website to localhost
 - Clone this repository to you chosen code editor
-- Clone the [Frontend](https://github.com/QuangMinhTran26/MoviesFrontend) to your chosen IDE 
+- Clone the [Frontend](https://github.com/QuangMinhTran26/MoviesFrontend) to your another IDE
 - Run the backend
 - Open the terminal of the frontend's code editor
 - Type "npm start"
